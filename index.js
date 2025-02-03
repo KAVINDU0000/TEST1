@@ -1,38 +1,24 @@
-import React from 'react'
+import React from 'react';
 
-function index() {
+function LoginPage() {
   return (
     <div>
-      <h2>hiiii</h2>
-
- 
-      
+      <h2>Login</h2>
       <form>
         <label>
-          Name:
-          <input type="text" name="name" />
+          Username:
+          <input type="text" name="username" />
         </label>
-        <input type="submit" value="Submit" />
+        <br />
+        <label>
+          Password:
+          <input type="password" name="password" />
+        </label>
+        <br />
+        <input type="submit" value="Login" />
       </form>
-
-  
-      <ul>
-        <li>Item 1</li>
-        <li>Item 2</li>
-        <li>Item 3</li>
-      </ul>
-
-    
-      <p> this is my list</p>
-      <li>
-        <ul>d1</ul>
-        <ul>d2</ul>
-        <ul>d3</ul>
-      </li>
-
-
     </div>
-  )
+  );
 }
 
-export default index
+export default LoginPage;
